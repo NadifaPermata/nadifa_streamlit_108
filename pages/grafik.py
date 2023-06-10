@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def main():
-    st.title("Aplikasi Grafik")
+    st.title("Aplikasi Grafik Histogram dan Boxplot")
     
     # Mengambil input dataset dari pengguna
     uploaded_file = st.file_uploader("Unggah file CSV", type="csv")
